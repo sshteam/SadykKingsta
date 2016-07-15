@@ -1,0 +1,34 @@
+.choiseone{
+	height:50px; 
+	width: 400px;
+	background: #FFE4E1;
+	border:1px solid #808000;
+	margin: 0 auto;
+	font-variant: small-caps;
+	font-size: 15pt;
+	white-space: nowrap;
+}
+.choisetwo{
+	height:100%; 
+	width: 45%;
+	display: inline-block;
+    vertical-align: middle;
+	margin: 0 0 0 10;
+}
+.choisethree{
+	height:100%; 
+	width: 45%;
+	margin: 0 0 0 0;
+	display: inline-block;
+    vertical-align: middle;
+}
+.nochoiseone{
+	height:500px; 
+	width: 400px;
+	background: #FFE4E1;
+	border:1px solid #808000;
+	margin: 0 auto;
+	font-variant: small-caps;
+	font-size: 15pt;
+	white-space: nowrap;
+}

@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>testovaya stranica</title>
+<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+<link rel="shortcut icon" type="image/x-icon" href="icon.gif" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body bgcolor = #FFF5EE>
+	<div class="wrapper">
+	<div class="header1">
+	  <span class="header2">
+		testovaya stranica
+	  </span>
+	</div>
+		<div class=" main menu">
+			<center>
+				menushechka
+			</center>
+			<ul>
+				<li class = "parent">
+					<a href="index.html"><span>1 str</span></a>
+						<ul class = "child">
+							<li> 1.1 str </li>
+							<li> 1.2 str </li>
+							<li> 1.3 str </li>
+						</ul>
+				</li>
+				<li class = "parent">
+					<a href="index.html"><span>2 str</span></a>
+						<ul class = "child">
+							<li> 2.1 str </li>
+							<li> 2.2 str </li>
+							<li> 2.3 str </li>
+						</ul>
+				</li>
+				<li class = "parent">
+					<a href="index.html"><span>3 str</span></a>
+						<ul class = "child">
+							<li> 3.1 str </li>
+							<li> 3.2 str </li>
+							<li> 3.3 str </li>
+						</ul>
+				</li>
+				<li class = "parent">
+					<a href="index.html"><span>4 str</span></a>
+						<ul class = "child">
+							<li> 4.1 str </li>
+							<li> 4.2 str </li>
+							<li> 4.3 str </li>
+						</ul>
+				</li>
+			</ul>
+		</div>
+		<div class=" main main1">
+			<form action="handler.php">
+				<p style="text-align:left;display:inline-block;"> <b>your name:</b><br>
+					<input type="text" class="text" placeholder="Имя" id="name">
+				</p>
+			
+				<p style = "text-align:right; display:inline-block;" ><b>your last name:</b><br>
+					<input type="text" class="text" placeholder="Фамилия" id="surname">
+				</p>
+
+				<p style="text-align:right;">
+					<input type="reset" value="clear">
+				</p>
+			</form>
+				<p style="text-align:right;">
+				<input type="submit" class="button" value="Отправить" onclick="send();">
+			</p>
+		</div>
+		<div class=" middle one">
+
+		</div>
+		<div class=" middle two">
+		
+		</div>
+		
+		<div class="footer">
+			<p class="lf">Город Омск 2016</p>
+			<p class="rf">сделано с использованием CSS, HTML</p>
+		</div>
+	</div>
+</body>
+</html>

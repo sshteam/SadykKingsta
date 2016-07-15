@@ -1,0 +1,28 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+<title>
+testovaya stranica
+</title>
+<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<div class="choiseone">
+		<div class="choisetwo">
+			<b>Запланируйте дело:</b><br>
+			<input type="text" class="text" placeholder="Дело" id="todo">
+		</div>
+		<div class="choisethree">
+			<br>
+			<input type="submit" class="button" value="запланировать" onclick="send();">
+			<input type="submit" onclick="clearTodo();" value="очистить">
+		</div>
+	</div>
+	<div class="nochoiseone">
+		<div class="output">Ваши дела: </div>
+		<ul id="todolist"></ul>
+	</div>
+</body>
+</html>
